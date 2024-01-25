@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Raleway&display=swap');
+/*try psuedo-class if root doesn't work*/
+:root {
+	--primary-color: #436436;
+	--secondary-color: #F3D719;
+	--accent1-color: #32C0A0;
+	--accent2-color: #2A1A1F;
+
+	--heading-font: 'Grape Nuts', cursive;
+	--paragraph-font: 'Raleway', sans-serif;
+
+	nav-background-color: #F3D719;
+	nav-link-color: #436436;
+	nav-hover-link-color: #2A1A1F;
+	nav-hover-background-color: #32C0A0;
+}
+body {
+	font-family: var(--paragraph-font);
+	max-width: 960px;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
+	color: var(--primary-color);
+}
+
+header {
+	padding: 20px;
+	background-color: var(--secondary-color);
+}
+
+p {
+	padding: 20px;
+}
+
