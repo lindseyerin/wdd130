@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Raleway&display=swap');
+
+:root {
+	--primary-color: #436436;
+	--secondary-color: #F3D719;
+	--accent1-color: #32C0A0;
+	--accent2-color: #2A1A1F;
+
+	--heading-font: 'Grape Nuts', cursive;
+	--paragraph-font: 'Raleway', sans-serif;
+
+	nav-background-color: #F3D719;
+	nav-link-color: #436436;
+	nav-hover-link-color: #2A1A1F;
+	nav-hover-background-color: #32C0A0;
+}
+nav {
+
+	background-color: #F3D719;
+}
+
+nav a {
+	color: #436436;
+	font-family: 'Grape Nuts';
+
+}
+
+nav a:hover {
+	color: #2A1A1F;
+	background-color: #32C0A0;
+}
+
+h1 {
+	color: #436436;
+	font-weight: bold;
+	font-family: 'Grape Nuts';
+}
+
+h2 {
+	color: #436436;
+	font-weight: bold;
+	font-family: 'Grape Nuts';
+}
+
+p {
+	color: #2A1A1F;
+	font-family: 'Raleway';
+}
+
+.sociallinks img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	display: block;
+	width: 100%;
+	height: auto;
+	float: right;
+	opacity: 0.5;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	opacity: 1;
+	border: 1px solid black;
+	background-color: antiquewhite;
+	
+}
+
+.hero article {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+}
