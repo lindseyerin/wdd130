@@ -9,19 +9,21 @@
 	--heading-font: 'Grape Nuts', cursive;
 	--paragraph-font: 'Raleway', sans-serif;
 
-	nav-background-color: #F3D719;
+	/*nav-background-color: #F3D719;
 	nav-link-color: #436436;
 	nav-hover-link-color: #2A1A1F;
-	nav-hover-background-color: #32C0A0;
+	nav-hover-background-color: #32C0A0;*/
 }
 nav {
 
 	background-color: #F3D719;
+	color: #436436;
 }
 
 nav a {
 	color: #436436;
 	font-family: 'Grape Nuts';
+	
 
 }
 
@@ -29,7 +31,6 @@ nav a:hover {
 	color: #2A1A1F;
 	background-color: #32C0A0;
 }
-
 h1 {
 	color: #436436;
 	font-weight: bold;
